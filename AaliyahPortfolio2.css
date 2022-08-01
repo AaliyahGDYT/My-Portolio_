@@ -1,11 +1,15 @@
-.paragraph-section{
+.paragraph-section{ text-align: center;
     
 }
 
-.list-section{
+.list-section{ text-align: center;
 
 }
 
-.top-section{
+.top-section{text-align: center;
     
+}
+
+body{
+    background-color: cornflowerblue;
 }
