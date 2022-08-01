@@ -2,6 +2,7 @@
 <html>
 <title>AaliyahPortfolio2</title>
 <head>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">   
 <link rel="stylesheet" href="AaliyahPortfolio2.css">
 
 </head>
@@ -11,13 +12,13 @@
 <h1>About Me!</h1>
 </div>
 
-<div class="paragraph-section">
-<p>Hello! My name is Aaliyah Rashed welcome to my Portfolio Website. This website will provide you information of my various skills I developed and things I accomplished throughout my years as an adult out of High School.<br>
+<div class="paragraph-section" >
+<p>Hello! My name is Aaliyah Rashed welcome to my Portfolio Website.<br> I am currently a student learning HTML&CSS. I'm trying to pursue my career as a Web Designer. I really enjoy learning new things about technology and reading.<br>I also have an interest in Photography.I am currently working on my coding skills, such as learning JavaScript.<br>This website will provide you information of my various skills I developed and things I accomplished throughout my years as an adult out of High School.<br>
 </p>
 </div>
 
 
-<div class="list-section">
+<div class="list-section" div style="display: flex; justify-content: center" >
 <ul>
     <h3> Key Skills:</h3>
 <li>
@@ -65,10 +66,49 @@ Adaptability
 </p>
 </div>
 
-<a href="https://github.com/AaliyahGDYT/Photography_.git" target="_blank">GitHub</a>
+<button><a href="https://github.com/AaliyahGDYT/Photography_.git" target="_blank">GitHub Link</a></button>
 
-<img src="mywebsite.jpg" style="width:500px; height:300px;">
-<img src="mywebsite2.jpg" style="width:500px; height:300px;">
+<!--Carousel Section-->
+<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+     
+        <img src="mywebsite.jpg" class="d-block w-100" alt="Website" style="width:400px; height:400px;">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>This is a HEADER.</h5>
+          <p>This is a PARAGRAPH.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="mywebsite2.jpg" class="d-block w-100" alt="Website2" style="width:400px; height:400px;">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>This is a HEADER.</h5>
+          <p>This is a PARAGRAPH.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="mywebsite3.png" class="d-block w-100" alt="Website3" style="width:400px; height:400px;">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>This is a HEADER.</h5>
+          <p>This is a PARAGRAPH.</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+<!--END-->
 
 
 
@@ -84,8 +124,7 @@ Adaptability
 
 
 
-
-
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 
 
