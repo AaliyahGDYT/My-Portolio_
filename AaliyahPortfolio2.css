@@ -2,9 +2,7 @@
     font-family:Apple Chancery, cursive;
     text-decoration: underline;
     color:ghostwhite;
-    border-style: dotted;
-border-color:deeppink;
-border-width: 5px; 
+   
 
 
 }
@@ -19,7 +17,7 @@ border-width: 5px;
 .list-section{ text-align: center;
     color: aliceblue;
     font-family: cursive;
-    border-style: groove;
+  
     font-size: x-large;
 
 }
@@ -27,12 +25,15 @@ border-width: 5px;
 
 body{
 
-    background-image: url(https://tse1.mm.bing.net/th?id=OIP.JTjRuH-iL-HDP_2xPOMbtgHaE8&pid=Api&P=0);
+    background-color:cornflowerblue;
     background-repeat: no-repeat;
     background-size: 100%;
 }
 
-h3{
+h3{ font-family: cursive;
     font-size: x-large;
     text-decoration: underline;
+}
+h4{ text-decoration: underline;
+
 }
