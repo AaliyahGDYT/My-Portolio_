@@ -1,7 +1,7 @@
 .top-section{
     text-align:center;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    background-color:goldenrod;
+    background-color:darkblue;
     color:aliceblue;
 }
 
@@ -9,7 +9,16 @@
 
 }
 
-body{ background-color: aliceblue;
-background-repeat: no-repeat;
-background-size: 100%;
+body{
+    background-color:blueviolet;
+
+}
+
+.img-section{
+    text-align: center;
+
+}
+
+.image-section{ text-align: right;
+
 }
